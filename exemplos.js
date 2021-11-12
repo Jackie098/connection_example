@@ -6,7 +6,7 @@ const pool = require('./postgre_connection');
 // Essa função vai ter o dever de inserir valores
 // numa tabela do banco
 function inserindo_numa_tabela() {
-  const insert = "INSERT INTO nome_tabela (nome, idade, altura )VALUES ($1, $2, $3)";
+  const insert = "INSERT INTO nome_tabela (nome, idade, altura) VALUES ($1, $2, $3)";
 
   const valores = ['joao', 18, 1.87];
 
