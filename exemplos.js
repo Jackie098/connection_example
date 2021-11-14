@@ -27,5 +27,6 @@ inserindo_numa_tabela()
     console.log(results);
   })
   .catch(function (err) {
+
     console.log(err);
   })
